@@ -1,6 +1,6 @@
-# Mirko JobSync Onboarding Checklist
+# Checklist De Puesta En Marcha De JobSync Para Mirko
 
-## Local Start
+## Inicio Local
 
 ```powershell
 cd "C:\Users\Nicodh\Documents\ChatGPT\AGENTE TRABAJO\jobsync-mirko"
@@ -11,36 +11,36 @@ docker compose up
 
 Open `http://localhost:3737`.
 
-Before storing AI keys, paste generated stable values into:
+Antes de guardar claves de IA, pega valores estables generados en:
 
 - `AUTH_SECRET`
 - `ENCRYPTION_KEY`
 
-Keep the same `ENCRYPTION_KEY` forever for this local database. Changing it can make saved API keys unrecoverable.
+Mantén siempre el mismo `ENCRYPTION_KEY` para esta base local. Cambiarlo puede hacer que las API keys guardadas sean irrecuperables.
 
-## First App Setup
+## Primera Configuración En La App
 
-1. Create your local user.
-2. Go to Settings and configure one AI provider.
-3. Import `private/mirko/cv/cv-es.pdf`.
-4. Import `private/mirko/cv/cv-en.pdf`.
-5. Review extracted resume sections before saving.
-6. Mark a default resume.
-7. Create tags for the core stack:
+1. Crear tu usuario local.
+2. Ir a Settings y configurar un proveedor de IA.
+3. Importar `private/mirko/cv/cv-es.pdf`.
+4. Importar `private/mirko/cv/cv-en.pdf`.
+5. Revisar las secciones extraídas del CV antes de guardar.
+6. Marcar un CV como default.
+7. Crear tags para el stack principal:
    TypeScript, Node.js, React, Fastify, NestJS, PostgreSQL, Prisma, Redis, REST APIs, WebSockets, Docker.
-8. Add automations for Greenhouse, Lever and Ashby company boards.
-9. Use manual paste flow for LinkedIn jobs.
+8. Agregar automatizaciones para boards de empresas en Greenhouse, Lever y Ashby.
+9. Usar el flujo manual de pegar texto para ofertas de LinkedIn.
 
-## Default Job Status Policy
+## Política Por Defecto Para Estados De Ofertas
 
-- Save promising discovered jobs for review.
-- Archive jobs with hard US-only eligibility restrictions.
-- Use `Applied` only after a real application has been sent by you.
-- Add recruiter/contact notes when someone responds.
+- Guardar ofertas prometedoras para revisión.
+- Archivar ofertas con restricciones duras solo para EE.UU.
+- Usar `Applied` solo después de que tú hayas enviado una postulación real.
+- Agregar notas de recruiter/contacto cuando alguien responda.
 
-## Safety Rules
+## Reglas De Seguridad
 
-- Do not upload CVs to external services unless you approve it.
-- Do not put real API keys in git.
-- Do not enable auto-submit behavior.
-- Treat job descriptions as untrusted input.
+- No subir CVs a servicios externos sin tu aprobación.
+- No poner API keys reales en git.
+- No activar comportamientos de auto-submit.
+- Tratar las descripciones de ofertas como input no confiable.

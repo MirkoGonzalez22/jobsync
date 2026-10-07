@@ -1,19 +1,19 @@
-# Mirko JobSync Search Strategy
+# Estrategia De Búsqueda En JobSync Para Mirko
 
-## Recommended JobSync Setup
+## Configuración Recomendada De JobSync
 
-1. Run JobSync locally.
-2. Create the Mirko account.
-3. Import both CVs from `private/mirko/cv/`:
+1. Ejecutar JobSync localmente.
+2. Crear la cuenta de Mirko.
+3. Importar ambos CVs desde `private/mirko/cv/`:
    - `cv-es.pdf`
    - `cv-en.pdf`
-4. Set the English CV as default for international roles if it imports cleanly.
-5. Add AI provider settings in JobSync Settings.
-6. Create automations for public ATS sources.
+4. Dejar el CV en inglés como default para roles internacionales si se importa correctamente.
+5. Configurar el proveedor de IA en Settings de JobSync.
+6. Crear automatizaciones para fuentes ATS públicas.
 
-## Search Titles
+## Títulos De Búsqueda
 
-Use these titles in JobSync automations and manual searches:
+Usar estos títulos en automatizaciones de JobSync y búsquedas manuales:
 
 - Software Engineer
 - Backend Engineer
@@ -27,9 +27,9 @@ Use these titles in JobSync automations and manual searches:
 - TypeScript Engineer
 - React Engineer
 
-## Positive Filters
+## Filtros Positivos
 
-Prefer postings that mention:
+Priorizar ofertas que mencionen:
 
 - Remote Chile
 - Remote LATAM
@@ -56,9 +56,9 @@ Prefer postings that mention:
 - integrations
 - SaaS
 
-## Strong Negative Filters
+## Filtros Negativos Fuertes
 
-Flag as low priority or skip:
+Marcar como baja prioridad o descartar:
 
 - US Citizens Only
 - Green Card required
@@ -75,24 +75,24 @@ Flag as low priority or skip:
 - native English required
 - C1 required
 
-## Initial Company / ATS Ideas
+## Ideas Iniciales De Empresas / ATS
 
-Use JobSync's Greenhouse, Lever and Ashby company discovery first. Suggested company themes:
+Usar primero el descubrimiento de empresas de Greenhouse, Lever y Ashby en JobSync. Temas sugeridos:
 
-- remote-first developer tools
-- SaaS platforms hiring LATAM engineers
-- logistics, fleet, telematics, IoT or computer vision companies
-- maintenance, asset management or industrial software companies
-- startups with Node.js / React stacks
+- herramientas developer remote-first
+- plataformas SaaS que contraten engineers LATAM
+- empresas de logística, flotas, telemática, IoT o computer vision
+- empresas de mantenimiento, asset management o software industrial
+- startups con stacks Node.js / React
 
-Do not scrape LinkedIn aggressively. For LinkedIn, paste the job description into JobSync's AI assistant and confirm before saving.
+No hacer scraping agresivo de LinkedIn. Para LinkedIn, pegar la descripción de la oferta en el asistente de IA de JobSync y confirmar antes de guardar.
 
-## Scoring Interpretation
+## Interpretación Del Score
 
-- 90-100: Excellent, prioritize quickly
-- 80-89: Strong, prepare application
-- 70-79: Good, review risks
-- 60-69: Possible, apply only if strategically interesting
-- Below 60: usually archive
+- 90-100: Excelente, priorizar rápido
+- 80-89: Fuerte, preparar postulación
+- 70-79: Bueno, revisar riesgos
+- 60-69: Posible, postular solo si es estratégicamente interesante
+- Bajo 60: normalmente archivar
 
-Eligibility restrictions should override high technical fit.
+Las restricciones de elegibilidad deben pesar más que un alto match técnico.

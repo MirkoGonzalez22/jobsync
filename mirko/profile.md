@@ -1,17 +1,17 @@
-# Mirko Gonzalez Cartagena - Job Search Profile
+# Mirko Gonzalez Cartagena - Perfil De Búsqueda Laboral
 
-This file is the working source for configuring JobSync and AI assistant prompts. Do not claim experience outside this profile or the imported CVs.
+Este archivo es la fuente de trabajo para configurar JobSync y los prompts del asistente de IA. No se debe afirmar experiencia fuera de este perfil o de los CVs importados.
 
-## Target
+## Objetivo
 
-- Primary target: Software Engineer
-- Location: Chile
-- Preferred work: remote Chile, remote LATAM, remote worldwide
-- Accept hybrid in Chile only for unusually strong opportunities
-- Experience: approximately 2-3 years
-- English: functional; do not assume advanced/fluent English
+- Objetivo principal: Software Engineer
+- Ubicación: Chile
+- Modalidad preferida: remoto Chile, remoto LATAM, remoto worldwide
+- Aceptar híbrido en Chile solo para oportunidades especialmente buenas
+- Experiencia: aproximadamente 2-3 años
+- Inglés: funcional; no asumir inglés avanzado o fluido
 
-## Priority Roles
+## Roles Prioritarios
 
 1. Software Engineer
 2. Backend Engineer
@@ -22,7 +22,7 @@ This file is the working source for configuring JobSync and AI assistant prompts
 7. Integration Engineer
 8. Application Support Engineer
 
-## Core Skills
+## Habilidades Principales
 
 - TypeScript
 - JavaScript
@@ -41,7 +41,7 @@ This file is the working source for configuring JobSync and AI assistant prompts
 - Linux
 - Git
 
-## Additional Skills
+## Habilidades Adicionales
 
 - Python
 - SQL
@@ -61,51 +61,51 @@ This file is the working source for configuring JobSync and AI assistant prompts
 - MCP
 - Multi-Agent Workflows
 
-## Experience Evidence
+## Evidencia De Experiencia
 
 ### VAITEX - Software Engineer
 
-Real experience includes:
+Experiencia real:
 
 - SaaS and multi-company platforms
 - AssetTap CMMS for asset and maintenance management
-- full-stack modules with React, TypeScript, Fastify, Prisma and PostgreSQL
-- work orders and maintenance plans
-- JWT and RBAC
-- PWA, NFC and QR workflows
-- MinIO / S3 storage
-- vehicle monitoring backend
-- NestJS, PostgreSQL / PostGIS, Redis and WebSockets
-- telemetry, GPS, cameras, events and alarms
-- ICarVision REST API integrations
+- módulos full stack con React, TypeScript, Fastify, Prisma y PostgreSQL
+- órdenes de trabajo y planes de mantenimiento
+- JWT y RBAC
+- flujos PWA, NFC y QR
+- almacenamiento MinIO / S3
+- backend de monitoreo vehicular
+- NestJS, PostgreSQL / PostGIS, Redis y WebSockets
+- telemetría, GPS, cámaras, eventos y alarmas
+- integraciones REST API con ICarVision
 - Computer Vision / Edge AI
 - NVIDIA Jetson Orin Nano
-- DeepStream, TensorRT and YOLO
-- four RTSP cameras
-- PPE detection and tracking
+- DeepStream, TensorRT y YOLO
+- cuatro cámaras RTSP
+- detección y tracking de EPP
 
 ### EasyFoodChile / Colegio Nido de Aguilas Projects
 
-Real experience includes:
+Experiencia real:
 
-- systems development and automation
-- Python, SQL, ETL and REST APIs
+- desarrollo de sistemas y automatización
+- Python, SQL, ETL y REST APIs
 - GCP
 - Power BI
 - Defontana ERP
-- systems support
-- requirements gathering
-- systems integration
+- soporte de sistemas
+- levantamiento de requerimientos
+- integración de sistemas
 
-## Salary Reference
+## Referencia Salarial
 
-- Chile target: CLP 1,500,000 - 1,800,000 liquid monthly, depending on role scope
-- Do not use salary as a hard filter when a post does not list compensation
+- Objetivo Chile: CLP 1.500.000 - 1.800.000 líquidos mensuales, según alcance del rol
+- No usar salario como filtro rígido cuando la oferta no publica remuneración
 
-## Truthfulness Rules
+## Reglas De Veracidad
 
-- Never invent companies, dates, responsibilities, tools or years of experience.
-- If a posting asks about a missing technology, answer honestly and bridge to equivalent experience.
-- Example: for .NET, say there is no direct .NET experience, then explain relevant Node.js / NestJS / Fastify backend experience.
-- Treat imported CVs and this profile as sources of truth.
-- Prioritize truthfulness over getting an interview.
+- Nunca inventar empresas, fechas, responsabilidades, herramientas o años de experiencia.
+- Si una oferta pregunta por una tecnología faltante, responder honestamente y conectar con experiencia equivalente.
+- Ejemplo: para .NET, indicar que no hay experiencia directa en .NET y luego explicar experiencia backend relevante con Node.js / NestJS / Fastify.
+- Tratar los CVs importados y este perfil como fuentes de verdad.
+- Priorizar la veracidad por sobre conseguir una entrevista.

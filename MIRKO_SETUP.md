@@ -1,31 +1,31 @@
-# Mirko Setup Overlay
+# Configuración de Mirko
 
-This fork is organized for Mirko Gonzalez Cartagena's job search.
+Este fork está organizado para la búsqueda laboral de Mirko Gonzalez Cartagena.
 
-## What Changed
+## Qué Se Agregó
 
-- Added `mirko/profile.md` with the candidate profile and truthfulness rules.
-- Added `mirko/search-strategy.md` with role, location, English and eligibility guidance.
-- Added `mirko/job-match-rubric.md` with the requested 0-100 scoring framework.
-- Added `mirko/onboarding-checklist.md` with local setup steps.
-- Added `mirko/env.example` with Chile timezone and local defaults.
-- Added `/private/` to `.gitignore` for local CVs and sensitive files.
+- `mirko/profile.md`: perfil del candidato y reglas de veracidad.
+- `mirko/search-strategy.md`: estrategia de roles, ubicación, inglés y elegibilidad.
+- `mirko/job-match-rubric.md`: rúbrica de scoring 0-100.
+- `mirko/onboarding-checklist.md`: pasos de puesta en marcha local.
+- `mirko/env.example`: ejemplo de entorno local con zona horaria de Chile.
+- `/private/` en `.gitignore` para CVs locales y archivos sensibles.
 
-## Private Local Files
+## Archivos Privados Locales
 
-CVs are copied locally but ignored by git:
+Los CVs están copiados localmente, pero ignorados por git:
 
 - `private/mirko/cv/cv-es.pdf`
 - `private/mirko/cv/cv-en.pdf`
 
-Import them through the JobSync UI after starting the app.
+Impórtalos desde la interfaz de JobSync después de iniciar la app.
 
-## Recommended Next Customization
+## Próximas Personalizaciones Recomendadas
 
-Keep the upstream app intact first. Once the app is running and your CV imports cleanly, the next fork changes should be:
+Conviene mantener intacta la app base primero. Cuando la app esté corriendo y los CVs se importen bien, los siguientes cambios del fork deberían ser:
 
-1. Add a first-run Mirko setup wizard or seed script.
-2. Add Chile/LATAM-specific eligibility detection to job match prompts.
-3. Add configured search templates for Mirko's target roles.
-4. Add a dashboard filter for Remote LATAM / Chile-compatible roles.
-5. Add a stricter "truthfulness" system prompt for application answers.
+1. Agregar un asistente de configuración inicial o script de seed para Mirko.
+2. Agregar detección de elegibilidad específica para Chile/LATAM en los prompts de match.
+3. Agregar plantillas de búsqueda para los roles objetivo de Mirko.
+4. Agregar un filtro de dashboard para ofertas Remote LATAM / compatibles con Chile.
+5. Agregar un prompt de veracidad más estricto para respuestas de postulación.

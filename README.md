@@ -1,5 +1,7 @@
 # JobSync
 
+> **Nota para Mirko:** este fork incluye una configuración en español para tu búsqueda laboral en [`MIRKO_SETUP.md`](./MIRKO_SETUP.md) y en la carpeta [`mirko/`](./mirko). La app base de JobSync todavía mantiene gran parte de su interfaz original en inglés; el overlay de perfil, estrategia, rúbrica y onboarding ya está traducido.
+
 <p align="center"><strong>The self-hosted job search assistant with AI-powered resume review, job matching, and automated discovery</strong></p>
 
 <p align="center">

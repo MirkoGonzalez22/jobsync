@@ -1,39 +1,39 @@
-# Mirko Match Rubric
+# Rúbrica De Match Para Mirko
 
-Use this rubric when asking JobSync's AI assistant to evaluate pasted jobs.
+Usar esta rúbrica cuando se le pida al asistente de IA de JobSync evaluar ofertas pegadas manualmente.
 
-## Weights
+## Pesos
 
-- Technical match: 35%
-- Experience match: 15%
-- Role match: 15%
-- Remote/location match: 15%
-- English match: 10%
-- Industry/project match: 5%
-- Salary match: 5%
+- Match técnico: 35%
+- Match de experiencia: 15%
+- Match de rol: 15%
+- Match de remoto/ubicación: 15%
+- Match de inglés: 10%
+- Match de industria/proyecto: 5%
+- Match salarial: 5%
 
-## Required Output
+## Salida Requerida
 
-For each job, ask the assistant to return:
+Para cada oferta, pedir al asistente que devuelva:
 
-- match score from 0 to 100
-- short verdict: excellent, strong, good, possible, low
-- positive reasons
-- missing skills
-- critical requirements
-- English requirement
-- years required
-- remote/location interpretation
-- eligibility restrictions
-- salary if available
-- recommended CV: Spanish or English
-- application keywords
-- risks before applying
+- score de match de 0 a 100
+- veredicto breve: excelente, fuerte, bueno, posible, bajo
+- razones positivas
+- habilidades faltantes
+- requisitos críticos
+- requisito de inglés
+- años requeridos
+- interpretación de remoto/ubicación
+- restricciones de elegibilidad
+- salario si está disponible
+- CV recomendado: español o inglés
+- keywords para la postulación
+- riesgos antes de postular
 
-## Human Approval
+## Aprobación Humana
 
-JobSync may draft materials and save jobs only after confirmation. Do not submit applications automatically.
+JobSync puede preparar materiales y guardar ofertas solo después de confirmación. No enviar postulaciones automáticamente.
 
-## Suggested Prompt
+## Prompt Sugerido
 
-Evaluate this job for Mirko Gonzalez Cartagena using the Mirko profile and imported CV as source of truth. Use a 0-100 score with the rubric in `mirko/job-match-rubric.md`. Be honest about missing requirements. Pay special attention to Chile/LATAM remote eligibility, US-only restrictions, English level, seniority and years of experience. Do not invent experience. End with an apply/review/archive recommendation.
+Evalúa esta oferta para Mirko Gonzalez Cartagena usando el perfil de Mirko y el CV importado como fuente de verdad. Usa un score de 0 a 100 con la rúbrica de `mirko/job-match-rubric.md`. Sé honesto con los requisitos faltantes. Presta especial atención a elegibilidad remota desde Chile/LATAM, restricciones solo para EE.UU., nivel de inglés, seniority y años de experiencia. No inventes experiencia. Termina con una recomendación: postular, revisar o archivar.
