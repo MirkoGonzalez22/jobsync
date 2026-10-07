@@ -52,6 +52,7 @@ next-env.d.ts
 # local user data: uploaded resumes and the docker sqlite bind mount
 /data/
 /jobsyncdb/
+/private/
 
 /test-results/
 /playwright-report/
